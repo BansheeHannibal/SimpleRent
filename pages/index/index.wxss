@@ -1,0 +1,27 @@
+/**index.wxss**/
+.container{
+  height: 50%;
+}
+.item{
+  width: 90%;
+  height: 100rpx;
+  background:#FFF;
+  margin: 50rpx 0;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+  border: 2px solid #FFF
+}
+
+.wxlogin{
+  border:1px solid #FFF;
+  color:#FFF;
+  font-size:30rpx; 
+  margin-top:20rpx;
+}

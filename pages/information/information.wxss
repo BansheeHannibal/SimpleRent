@@ -1,0 +1,5 @@
+/* pages/information/information.wxss */
+text{
+  margin:20rpx;
+  color: #bfbfbf
+}

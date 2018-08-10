@@ -1,0 +1,11 @@
+/* pages/cur/cur.wxss */
+.container{
+  justify-content: start;
+}
+
+.td{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

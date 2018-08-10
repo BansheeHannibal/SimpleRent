@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/information/information",
+    "pages/cur/cur",
+    "pages/doom/doom",
+    "pages/addInfo/addInfo"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#25c6fc",
+    "navigationBarTitleText": "Simple收租",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color":"#bfbfbf",
+    "selectedColor":"#25c6fc",
+    "backgroundColor": "#FFF",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"首页",
+      "selectedIconPath":"images/indexF.png",
+      "iconPath":"images/indexN.png"
+    },{
+      "pagePath": "pages/doom/doom",
+      "text": "房间管理",
+      "selectedIconPath": "images/doomF.png",
+      "iconPath": "images/doomN.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "收租明细",
+      "selectedIconPath": "images/rentF.png",
+      "iconPath": "images/rentN.png"
+    }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+/* pages/doom/doom.wxss */
+button{
+  font-size: 30rpx;
+  align-self: flex-end;
+}
+text{
+  margin:20rpx;
+  color: #bfbfbf
+}
+.show{
+  opacity: 1;
+}

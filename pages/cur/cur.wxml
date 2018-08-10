@@ -1,0 +1,22 @@
+<view class="container">
+  <view class='tr'>
+  <view class='td'>
+    <image src='/images/money.png' style='width:50rpx;height:50rpx;margin-bottom:10rpx;'></image>
+    <text>待收款</text>
+  </view>
+  <view class='td'>
+    <image src='/images/house.png' style='width:50rpx;height:50rpx;margin-bottom:10rpx;'></image>
+    <text>空房</text>
+  </view>
+  </view>
+  <view class='tr'>
+  <view class='td'>
+    <image src='/images/watermark.png' style='width:50rpx;height:50rpx;margin-bottom:10rpx;'></image>
+    <text>待抄水表</text>
+  </view>
+  <view class='td'>
+    <image src='/images/dianbiao.png' style='width:50rpx;height:50rpx;margin-bottom:10rpx;'></image>
+    <text>待抄电表</text>
+  </view>
+  </view>
+</view>

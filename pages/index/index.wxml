@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class='container' style='background:#25c6fc'>
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+  <button plain='true'class='wxlogin'style="border:1px solid #FFF;color:#FFF;">微信登陆</button>
+</view>
+<view class="container">
+  <button class='item' bindtap='btnToCur'>
+    <text style='font-size:30rpx'>本月收租情况</text>
+    <image src='/images/YUAN.png' style='width:50rpx; height:50rpx' />
+  </button>
+  <button class='item' bindtap='btnToInfo'>
+    <text style='font-size:30rpx'>租客信息</text>
+    <image src='/images/team.png' style='width:50rpx; height:50rpx' />
+  </button>
+</view>

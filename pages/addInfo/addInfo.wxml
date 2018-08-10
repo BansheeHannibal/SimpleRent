@@ -1,0 +1,12 @@
+<view class='container'>
+<form bindsubmit='formSubmit'>
+  <text>租客姓名:</text><input name="name" type='text' placeholder='请输入租客姓名'></input>
+  <text>房间号:</text><input name="num" type='number' placeholder='请输入房间号'></input>
+  <text>电表读数:</text><input name="eleinfo"type='number' placeholder='请输入电表读数'></input>
+  <text>用电单价:</text><input name="eachele" type='number' placeholder='请输入用电单价'></input>
+  <text>水表读数:</text><input name="waterinfo" type='number' placeholder='请输入水表读数'></input>
+  <text>用水单价:</text><input name="eachwater" type='number' placeholder='请输入用水单价'></input>
+  <button type="primary" form-type='submit'>提交</button>
+</form>
+  
+</view>

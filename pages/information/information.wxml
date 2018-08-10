@@ -1,0 +1,4 @@
+<view class='container show'>
+  <image src='/images/none.png' style='width:200rpx;height:200rpx;'/>
+  <text>暂无租客信息，请到房间管理添加租客</text>
+</view>

@@ -1,0 +1,6 @@
+<view class='container show'>
+  <image src='/images/none.png' style='width:200rpx;height:200rpx;'/>
+  <text>没有正在出租的房号，请点下方按钮添加</text>
+  <button type='primary' bindtap='btnToAdd'>添加房间</button>
+</view>
+

@@ -1,0 +1,42 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+page{
+  height: 100%;
+}
+.table{
+  border: 5px solid #25c6fc;
+  width: 98%;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.tr{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.th,.td{
+  width: 100%;
+  height: 300rpx;
+  padding: 10rpx;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  text-align: center;
+} 
+
+.th{
+  font-weight: 400;
+  background: #dadada
+}
+
+text{
+  font-size: 30rpx;
+}

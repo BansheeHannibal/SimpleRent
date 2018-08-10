@@ -1,0 +1,22 @@
+/* pages/addInfo/addInfo.wxss */
+.container{
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  padding: 10rpx;
+}
+text{
+  padding: 10rpx;
+  font-size: 35rpx;
+}
+form{
+  width: 100%;
+}
+
+input{
+  margin: 20rpx;
+}
+
+button{
+  margin-top:200rpx;
+}
